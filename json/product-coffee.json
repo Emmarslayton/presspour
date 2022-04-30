@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "Name": "Light Roast", 
+            "ID": 1,
+            "Price": 12,
+            "Description": "Press + Pour Coffee - Light Roast",
+            "Weight": 12,
+            "Photo": "coffee_bean1.jpg"
+        },
+        {
+            "Name": "Medium Roast", 
+            "ID": 2,
+            "Price": 12,
+            "Description": "Press + Pour Coffee - Medium Roast",
+            "Weight": 12,
+            "Photo": "coffee_bean2.jpg"
+        },
+        {
+            "Name": "Dark Roast", 
+            "ID": 3,
+            "Price": 12,
+            "Description": "Press + Pour Coffee - Dark Roast",
+            "Weight": 12,
+            "Photo": "coffee_bean3.jpg"
+        }
+    ]
+}

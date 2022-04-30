@@ -1,0 +1,723 @@
+/* ------------------ GRID ------------------ */
+#wrap {
+    display: grid;
+    grid-template-columns: (12,1fr);
+    grid-template-rows: auto auto auto;
+    grid-gap: 1em;}
+
+header{
+    grid-column: 1 / 13;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:100%;
+    padding-top: 0em;
+}
+#content {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    grid-column: 1 / 13;}
+
+#Video{
+    grid-column: 1/13;
+}
+
+footer {
+    grid-column: 1 / 13;}
+
+/* ------------------ HEADER ------------------ */
+@font-face{
+    font-family: Pierson;
+    src: url(../Final-2/Garet\ Book\ 300.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+h1 { font-family: Pierson; font-size: 4.2em; }
+
+
+h2{
+    font-family: Pierson;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-family: Pierson;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-color: #DFDDDA;}
+
+.centerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > h1 {
+    text-align: center;
+    color: black;
+    margin-top: 0px;}
+
+header>nav>ul{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: #DFDDDA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+}
+
+header>nav>li{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    height: 25px;
+    padding: 10px 1em 0em 1em;}
+
+a:link, a:visited {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color:#594A47;
+    text-decoration: none;}
+
+a:hover, a:active {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #5D122B;}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.dropdown {  
+    display: inline-block;  
+    position: relative;
+    background-color: transparent;
+    border: none;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: large;
+}  
+.dropdown-content {  
+    position: absolute;  
+    background-color: lightgrey;  
+    min-width: 200px;  
+    display: none;  
+    z-index: 1;  
+}  
+.dropdown>.dropdown-content a {  
+    color: black;  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+}  
+.dropdown-content a:hover {  
+    background-color: #5D122B;  
+    color: white
+}  
+.dropdown:hover>.dropdown-content {  
+    display: block;  
+} 
+#menuContent>button {
+    background-color: #5D122B;
+    border: none;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.dropdown>.dropbtn{ 
+    background-color: transparent;
+    border: none;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: large;
+}
+    
+
+
+/* ------------------ BODY ------------------ */
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0px 10px 0px 10px;}
+
+#content {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-left: 50px;
+    margin-right: 5px;}
+
+h1{
+    color: #42281C;
+    text-transform: uppercase;
+}
+
+#espresso{
+    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 800;
+        height: auto;
+        border: 2px solid #5D122B;
+        margin: 30px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+#specialtyDrinks{
+    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 800;
+        height: auto;
+        border: 2px solid #5D122B;
+        margin: 30px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+#bread{
+    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 800;
+        height: auto;
+        border: 2px solid #5D122B;
+        margin: 30px;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+}
+#bagels{
+    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 800;
+        height: auto;
+        border: 2px solid #5D122B;
+        margin: 30px;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+}
+#pastries{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 800;
+    height: auto;
+    border: 2px solid #5D122B;
+    margin: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/* New Image Formatting */
+#shoppics>div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+#coffeebeans>div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+#mugpics>div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+
+
+/* Image Formatting */
+.headerlayout{display:flex; flex-direction: row;}
+
+
+.sweatshirt, .coffeecup, .coffeemug, .tallcoffeemug, .travelcup{
+    position: relative;
+    display: flex; flex-direction: row;
+    max-width: fit-content;
+}
+.sweatshirt .sweatshirthover, .cuphover, .camperhover, .mughover, .travelhover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    max-width: fit-content;
+}
+.sweatshirt:hover .sweatshirthover, .cuphover:hover, .cuphover, .camperhover:hover ,.camperhover, .mughover, .mughover:hover, .travelhover, .travelhover:hover{
+    display: flex; flex-direction: row;
+}
+.tshirt{
+    position: relative;
+    display: flex; flex-direction: row;
+    max-width: fit-content;
+}
+.tshirt .tshirthover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    max-width: fit-content;
+}
+.tshirt:hover .tshirthover{
+    display: flex; flex-direction: row;
+}
+
+.tshirt_2{
+    position: relative;
+    display: flex; flex-direction: row;
+    max-width: fit-content;
+}
+.tshirt_2 .tshirt_2hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    max-width: fit-content;
+}
+.tshirt_2:hover .tshirt_2hover{
+    display: flex; flex-direction: row;
+}
+.shoppics, .mugpics {
+    max-width: fit-content;
+}
+/*------------------------------------------------------------*/
+#coffeebeans{
+    position: relative;
+    display: flex; flex-direction: row;
+    max-width: fit-content;
+}
+
+
+.aboutpic{
+    position: relative;
+    display: flex; flex-direction: row;
+}
+.aboutpic .aboutushover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.aboutpic:hover .aboutushover{
+    display: flex; flex-direction: row;
+}
+.menupic{
+    position: relative;
+    display: flex; flex-direction: row;
+}
+.menupic .menuhover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.menupic:hover .menuhover{
+    display: flex; flex-direction: row;
+}
+
+.shoppic{
+    position: relative;
+    display: flex; flex-direction: row;
+}
+.shoppic .shophover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.shoppic:hover .shophover{
+    display: flex; flex-direction: row;
+}
+
+.contactpic{
+    position: relative;
+    display: flex; flex-direction: row;
+}
+.contactpic .contacthover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contactpic:hover .contacthover{
+    display: flex; flex-direction: row;
+}
+.homepagelinks{display:flex; flex-direction: row;}
+.shoppics{display:flex; flex-direction: row;}
+
+
+
+#espresso>h3 {
+    color: #594A47;
+}
+#specialtyDrinks>h3 {
+    color: #594A47;
+}
+#onTap>h3 {
+    color: #594A47;
+}
+#leftcoffeebean {
+    text-align: left;
+}
+#rightcoffeebean {
+    text-align: right;
+}
+#Roast{
+    width: fit-content;
+    max-width: 100%;
+}
+.coffeebeans_3{
+    display: flex;
+    justify-content:right;
+}
+/*-----------------------------VIDEO------------------------------------*/
+video{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+            /* ------------ TABLES ------------ */
+#tables {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    border: 4px solid #729598;}
+
+#tables>h1 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight:bold;
+    font-size: xx-large;
+    border-bottom: 2px solid #729598;
+    padding-bottom: 10px;}
+
+table{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;}
+
+tr{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    padding: 10px 10px 10px 10px;
+    line-height: 40px}
+
+th {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    padding: 0px 10px 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: large;
+    border-bottom: 2px solid #729598;}
+
+tr:nth-child(even){
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background-color: #93b6b9;}
+
+tr:not(:first-child):hover{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background-color: #729598;}
+
+            /* ------------ ARTICLE ------------ */
+#articles > h1 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    width: 66%;
+    letter-spacing: 3px;
+    margin-bottom: 0px;}
+
+#articles > h3 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: medium;}
+
+article {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-right: 20px;}
+
+blockquote {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    float: right;
+    width: 33%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-bottom: 1pt solid #903729;
+    border-top: 1pt solid #903729;}
+
+#blocktext>p::first-letter, #column1::first-letter, #column2::first-letter, #column3::first-letter{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+    color: #903729;
+    font-style: bold;}
+
+.column {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    float: left;
+    width: 25%;}
+
+#column1, #column2 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-right: 20px;}
+
+#column3 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-right: 0px;}
+
+            /* ------------ FORM ------------ */
+#forms {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    border: 4px solid black;
+    padding: 10px 10px 10px 10px;
+    align-content: center;}
+
+#forms>h1 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-style: bold;
+    border-bottom: 1.5px solid #42281C;
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: -1px;}
+
+form>div {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid #594A47;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 260px;}
+
+.title {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    float:left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;}
+form {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    display: block;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;}
+
+#fname, #lname, #email, #phone{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 37%;
+    left: -2%;}
+
+fieldset.title {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;}
+
+fieldset{
+    width: 350px;
+    border: 1px solid #42281C;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;}
+
+legend {
+    color: white;
+    background-color: #594A47;
+    border: 1px solid #42281C;
+    border-radius: 6px;
+    padding: 5px 20px;
+    text-align: center;}
+
+input#reset {
+    color: white;
+    background-color: #999;
+    border: 0.1em solid #999;
+    border-radius: 10px;
+    width: 8em;
+    font-style: bold;}
+
+input#submit {
+    color: white;
+    background-color: black;
+    border: 0.1em solid black;
+    border-radius: 10px;
+    width: 8em;
+    font-style: bold;}
+
+input#reset:hover {
+    background-color: #42281C;
+    cursor: pointer;
+    border: 0.1em solid #42281C;}
+
+input#submit:hover {
+    color: black;
+    background-color: #a19f89;
+    border: 0.1em solid #a19f89;
+    cursor: pointer;}
+
+            /* ------------ GALLERY ------------ */
+#gallery.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;}
+
+#gallery>h1 {
+    font-family: 'Monotype corsiva', cursive;
+    font-size: 30px;}
+
+#gallery>h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 15px;}
+
+.item>figure>img {
+    width: 125%;
+    height: 170px;
+    margin-left: -12%;}
+
+.item{
+    width: 33.3%;
+    flex-basis: 33.3%;
+    height:33.3%;
+    float:left;
+    margin-bottom: 1%;}
+
+.item:not(img[alt="almost SuperBowl winners"], img[alt="great coaching"], img[alt="a time waster"]) {
+    background-color: #a4c1c4;}
+
+/* ------------------ ASIDE ------------------ */
+aside {
+    max-width: 285px;
+    display:inline-flex;
+    float: right;
+    border: 1px solid #4f5e62;
+    background-color: #4f5e62;
+    border-radius: 10px;}
+#adpic {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;}
+aside>div>p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+    color:#dcdcdc;
+    padding: 10px;}
+
+/* ------------------ FOOTER ------------------ */
+footer {
+    background-color: #DFDDDA;}
+footer>ul{
+    background-color: #DFDDDA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px 10px 10px 10px;}
+footer>li {
+    color: white;
+    height: 25px;
+    padding: 10px 1em 0em 1em;}
+footer>li>a{
+    text-decoration: none;
+    color:white}
+footer>li:hover{
+    background-color: gray;
+    width:max-content}
+
+
+/* ---------------------------------------------- */
+
+
+#missionstatement{
+    text-align: center;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    font-size: x-large;
+    background-color: #5D122B;
+    color: #DFDDDA;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#about>h1{
+    font-size: xx-large;
+}
+
+#menu>h1{
+    text-align: center;
+}
+
+.shoppagelinks{display:flex; flex-direction: row;}
+.apparelpics{
+    position: relative;
+    display: flex; flex-direction: row;
+}
+.apparelpics .apparelhover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.apparelpics:hover .apparelhover{
+    display: flex; flex-direction: row;
+}
+.mugspics{
+    position: relative;
+    display: flex; flex-direction: row;
+}
+.mugspics .mugshover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.mugspics:hover .mugshover{
+    display: flex; flex-direction: row;
+}
+
+.coffeebeanspics{
+    position: relative;
+    display: flex; flex-direction: row;
+}
+.coffeebeanspics .coffeehover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.coffeebeanspics:hover .coffeehover{
+    display: flex; flex-direction: row;
+}

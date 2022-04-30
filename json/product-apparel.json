@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "Name": "Sweatshirt", 
+            "ID": 8,
+            "Price": 15,
+            "Description": "Press + Pour Coffee - Sweatshirt",
+            "Weight": 16,
+            "Photo": "sweatshirt-a.png"
+        },
+        {
+            "Name": "T-Shirt", 
+            "ID": 9,
+            "Price": 15,
+            "Description": "Press + Pour Coffee - T-Shirt",
+            "Weight": 16,
+            "Photo": "tshirt-a.png"
+        },
+        {
+            "Name": "Coffee Please T-Shirt", 
+            "ID": 10,
+            "Price": 15,
+            "Description": "Press + Pour Coffee - Coffee Please T-Shirt",
+            "Weight": 16,
+            "Photo": "tshirt2-a.png"
+        }
+    ]
+
+}

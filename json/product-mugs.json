@@ -1,0 +1,37 @@
+{
+    "products": [
+        {
+            "Name": "Coffee Cup", 
+            "ID": 4,
+            "Price": 8,
+            "Description": "Press + Pour Coffee - Coffee Cup",
+            "Weight": 44,
+            "Photo": "coffeecup-a.png"
+        },
+        {
+            "Name": "Camper Mug", 
+            "ID": 5,
+            "Price": 10,
+            "Description": "Press + Pour Coffee - Camper Mug",
+            "Weight": 54,
+            "Photo": "campermug-a.png"
+        },
+        {
+            "Name": "Tall Coffee Mug", 
+            "ID": 6,
+            "Price": 8,
+            "Description": "Press + Pour Coffee - Speckled Mug",
+            "Weight": 48,
+            "Photo": "coffee_mug2.jpg"
+        },
+        {
+            "Name": "Travel Mug", 
+            "ID": 7,
+            "Price": 10,
+            "Description": "Press + Pour Coffee - Travel Mug",
+            "Weight": 54,
+            "Photo": "coffee_cup1.jpg"
+        }
+    ]
+
+}
